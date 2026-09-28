@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+#hero1{
+    padding-top: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 200px;
+}
+.ball{
+    width: 100px;
+    height: 100px;
+    animation: sakra 2s linear infinite;
+    margin-bottom: 100px;
+    
+}
+@keyframes sakra{
+    0%{
+        transform: translateY(0);
+
+    }50%{
+        transform: translateY(-200px);
+
+    }100%{
+        transform: translateY(0);
+
+    }
+    
+    
+    
+}
+.ball img{
+    width: 100%;
+    height: 100%;
+}
+
+#hero2{
+    padding-top: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 200px;
+
+}
+
+
+
+.loading{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(193, 224, 58);
+    border-radius: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    border: 8px solid transparent;
+    border-bottom: 8px solid blueviolet;
+    animation:dumala 2s linear infinite ;
+}
+@keyframes dumala{
+    0%{
+        transform: rotate(0);
+       
+
+    }100%{
+        transform: rotate(360deg);
+        }
+    }
+       
+
+    
+
+ 
+
+
+
+
